@@ -3,7 +3,7 @@ package helper
 
 class CustomDate {                       
 
-    def tellMe(){
+    static def tellMe(){
         def date = new Date()
         println date
 }
