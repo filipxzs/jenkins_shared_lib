@@ -1,11 +1,10 @@
 package helper.my_custom_helper
-package com.javacodegeeks.groovy.date
 
-class CustomDate {                       
+class CustomTeller {                       
 
-    static def tellMe(){
-        def date = new Date()
-        println date
+    static def tellMe(arg){
+        println("I am telling you:")
+	println(arg)
 }
 
 }
